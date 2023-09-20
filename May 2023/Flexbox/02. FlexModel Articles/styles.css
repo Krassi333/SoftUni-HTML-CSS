@@ -1,0 +1,23 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+
+}
+
+section article h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+    font-size: 2em;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 3rem;
+    padding: 30px;
+    /*justify-content: center; */
+}
+
+section article {
+    flex: 0 1 15rem;
+}
