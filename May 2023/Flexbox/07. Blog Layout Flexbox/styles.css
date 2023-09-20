@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page header{
+    flex-basis: 100%;
+    border-bottom: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1em;
+    text-transform: uppercase;
+}
+
+ a {
+    color: rgb(0, 153, 0);
+
+}
+
+h1,
+h2 {
+    font-family: Georgia, serif;
+}
