@@ -1,0 +1,10 @@
+div {
+    border: 1px solid black;
+  }
+  
+  p {
+    margin:30px 40px 50px 20px;
+    font-weight: bold;
+    background-color: coral;
+  }
+  
