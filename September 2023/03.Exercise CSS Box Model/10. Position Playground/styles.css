@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display:flex;
+    height: 500px;
+}
+
+img{
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;;
+}
+
+.viewport{
+    display: block;
+    height: 500px;
+}
+
+.card{
+   align-items: center;
+}
+
+div:nth-child(1){
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,255,201,1) 100%);
+}
+
+div:nth-child(2){
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 52%, rgba(252,176,69,1) 74%);
+}
+
+
+img:nth-child(1){
+    height: 250px;
+    width: 400px;
+}
+
+img:nth-child(2){
+    height: 400px;
+    width: 300px;
+}
+
+
