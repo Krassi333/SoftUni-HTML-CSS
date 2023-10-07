@@ -1,0 +1,37 @@
+html {
+    font-family: Helvetica, sans-seri;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+article,
+aside {
+    display: inline-block;
+}
+
+ul{
+    list-style-type:square;
+}
+
+a{
+    color: rgb(87, 87, 233);
+}
+
+article{
+    float: left;
+
+    width: 70%;
+    margin:15px;
+}
+
+img{
+    width: 75%;
+    height: 400px;
+}
+
+aside{
+    width: 26%;
+    justify-content: right;
+    padding-top: 10px;
+
+}
