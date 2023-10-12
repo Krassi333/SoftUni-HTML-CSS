@@ -1,0 +1,30 @@
+body {
+    padding: 2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+ul {
+    justify-content: flex-end;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li {
+    padding:1em;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 153, 0);
+}
+
+h1 {
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
