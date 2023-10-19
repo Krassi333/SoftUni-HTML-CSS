@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px 1, 5 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+header {
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    padding-bottom: 1px;
+}
+
+p {
+    padding: 10px 10px;
+}
+
+header h1 span {
+    color: rgba(50, 125, 196, 1);
+}
+
+div.content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+article {
+    background-color: rgba(129, 157, 175, 1);
+    flex: 1 0 30%;
+    border-radius: 15px;
+}
+
+
+div.article-content {
+    padding: 10px 10px 10px 10px;
+
+}
+
+article h2,
+article a {
+    padding: 10px 10px 5px 10px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+article a {
+    display: inline-block;
+    background-color: rgba(50, 125, 196, 1);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 11px;
+    line-height: 1;
+    color: white;
+    border: 1px solid rgba(50, 60, 196, 1);
+    box-shadow: 0 0 0 2px 0 rgba(255, 255, 255, 0.5);
+}
