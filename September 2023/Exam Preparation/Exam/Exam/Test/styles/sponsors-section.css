@@ -1,0 +1,33 @@
+.sponsors {
+    padding-bottom:2em;
+}
+
+.sponsors h2,
+.sponsors p {
+    text-align: center;
+}
+
+.sponsors h2 {
+    padding-top:1em;
+    color:rgba(176, 130, 92, 1);
+}
+.sponsors p {
+    
+    color:rgba(131, 125, 162, 1);
+}
+
+.sponsor-logo {
+    display:flex;
+    justify-content: center;
+    gap:3em;
+    padding-top: 3em;
+}
+
+.sponsor-logo img{
+    max-width: 5em;
+    max-height: 4em;
+    border:1px solid rgba(221, 221, 221, 1);
+    background-color: rgba(221, 221, 221, 1);
+    border-radius: 50%;
+    padding:1em;
+}
