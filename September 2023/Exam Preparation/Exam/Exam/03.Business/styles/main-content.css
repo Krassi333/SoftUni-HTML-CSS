@@ -1,0 +1,27 @@
+.site-content {
+    display: flex;
+    flex:1 1 20%;
+    gap:3em;
+    padding: 5em;
+   justify-content: center;
+   border-bottom: 1px solid rgba(204, 204, 204, 1);
+
+}
+
+.section {
+    max-width: 40%;
+}
+
+.section p {
+    line-height: 1.5;
+    padding-bottom:2em;
+    color:rgba(123, 129, 154, 1);
+}
+
+.section a {
+    text-decoration: none;
+    color:rgba(176, 130, 92, 1);
+    border:1px solid rgba(176, 130, 92, 1);
+    padding: 0.5em 1em;
+
+}
