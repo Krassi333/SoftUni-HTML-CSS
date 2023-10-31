@@ -1,0 +1,68 @@
+.top-bar {
+    background-color: rgba(208, 25, 25, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+}
+
+.header-nav li {
+    padding: 10px 10px;
+
+}
+
+.header-nav li a {
+    color: white;
+}
+
+.banner {
+   display:flex;
+   flex-direction: column;
+   
+   align-items: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    padding: 2em 4em;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color:white;
+}
+
+.banner h1,
+.banner p {
+    color:white;
+
+}
+
+.banner h1 {
+    letter-spacing: 0.2em;
+}
+
+.banner a{
+    text-decoration: none;
+    color:white;
+    background-color: rgba(208, 25, 25, 1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    line-height: 1;
+}
