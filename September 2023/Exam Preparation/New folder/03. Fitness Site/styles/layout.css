@@ -1,0 +1,9 @@
+body {
+    background:url(../image/fitness-main.jpg);
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+}
+
+.site {
+    min-height: 100vh;
+}
